@@ -439,7 +439,20 @@ div {
   border: 1px solid Chocolate;
 }
 
+header {
+  background-color: #ffffff;
+}
 
+.nav-links {
+  margin: auto 0 auto 35em;
+}
+
+.nav-links li {
+  list-style-type: none;
+  display: inline;
+  margin: 1em;
+
+}
 
 
 
