@@ -130,6 +130,12 @@ div {
   display: inline-block;
 }
 
+.main h2{
+  font-size: 2.75rem;
+  margin: 1.625rem 0 3.125rem;
+  font-weight: 300;
+  text-align: center;
+}
 
 
 
