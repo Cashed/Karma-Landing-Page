@@ -455,6 +455,7 @@ div {
 
 .content {
   padding: 0px 15px;
+  border: none;
 }
 
 .top-navigation .content {
@@ -488,12 +489,10 @@ div {
 }
 
 
-/*
-
 .intro {
   height: 45em;
   width: 100%;
-  background-color: blue;
+  background: url("../images/first-background copy.jpg");
 }
 
 .main {
@@ -516,7 +515,7 @@ div {
   display: inline-block;
 }
 
-*/
+
 
 
 
