@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;  /*force margin and padding to cut into width and height, rather than expand.*/
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -439,20 +447,48 @@ div {
   border: 1px solid Chocolate;
 }
 
-header {
+/*********** Navigation Section ************/
+
+.top-navigation {
   background-color: #ffffff;
 }
 
-.nav-links {
-  margin: auto 0 auto 35em;
+.content {
+  padding: 0px 15px;
 }
 
-.nav-links li {
+.top-navigation .content {
+  width: 60%;
+  height: 4.375em;
+  margin: 0 auto;
+} 
+
+.top-navigation img {
+  height: 4.375rem;
+}
+
+.top-navigation .nav-links {
+  float: right;
+  font-family: 'Roboto', sans-serif;
+  color: #838994;
+  font-size: 16px;
+  margin-top: 25px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .nav-links li {
   list-style-type: none;
-  display: inline;
+  display: inline-block;
   margin: 1em;
-
 }
+
+.top-navigation .nav-links .active {
+  color: #4c5058;
+  font-weight: 600;
+}
+
+
+/*
 
 .intro {
   height: 45em;
@@ -460,11 +496,11 @@ header {
   background-color: blue;
 }
 
-.content {
+.main {
   background-color: green;
 }
 
-.content ul {
+.main ul {
   list-style-type: none;
   margin: 0 auto 0 auto;
   background-color: gray;
@@ -473,14 +509,14 @@ header {
   padding: 0;
 }
 
-.content ul li {
+.main ul li {
   width: 30%;
   height: 10em;
   background-color: red;
   display: inline-block;
 }
 
-
+*/
 
 
 
