@@ -1,8 +1,8 @@
-/******************   MY STYLESHEET    ********************/
+/************** General ***************/
 
 
 body {
-  background-color: LightGray;  /* see what's currently covered */
+  background-color: white;  /* see what's currently covered */
   font-family: 'Roboto', sans-serif;
 }
 
@@ -45,7 +45,7 @@ div {
 
 .top-navigation .nav-links .active {
   color: #4c5058;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /**************** Introduction ****************/
@@ -75,13 +75,13 @@ div {
 .intro h1 {
   margin-top: 0;
   padding-top: 17.5rem;
-  font-size: 3.125rem;
+  font-size: 50px;
 }
 
 .intro h1, .intro h3{
   text-align: center;
   color: white;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .big-button {
@@ -111,13 +111,13 @@ div {
 /************* Main Content *****************/
 
 .main {
-  background-color: green;
+  background-color: white;
 }
 
 .main ul {
   list-style-type: none;
   margin: 0 auto 0 auto;
-  background-color: gray;
+  background-color: white;
   width: 80%;
   text-align: center;
   padding: 0;
@@ -126,17 +126,22 @@ div {
 .main ul li {
   width: 30%;
   height: 10em;
-  background-color: red;
+  background-color: white;
   display: inline-block;
 }
 
 .main h2{
   font-size: 2.75rem;
-  margin: 1.625rem 0 3.125rem;
+  margin: 7.625rem 0 3.125rem;
   font-weight: 300;
   text-align: center;
 }
 
+.main .devices h3 {
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin: 2.5 rem 0px 1,875rem;
+}
 
 
 
