@@ -16,6 +16,9 @@ div {
 
 .top-navigation {
   background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 
 .top-navigation .content {
@@ -141,6 +144,10 @@ div {
   font-weight: 400;
   font-size: 1.563rem;
   margin: 2.5 rem 0px 1,875rem;
+}
+
+.caption {
+  border: none;
 }
 
 
